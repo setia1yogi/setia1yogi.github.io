@@ -1,0 +1,521 @@
+/*css reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/*HTML 5*/
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*end css reset*/
+
+
+
+/*body*/
+
+
+
+
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color: azure;
+}
+
+
+
+/*container*/
+
+
+
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+
+
+/*Navigasi*/
+
+
+
+
+
+.judul{
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	margin-left: 20px;
+}
+.navigasi{
+	margin-top: 15px;
+	background-color: rgb(94, 94, 94);
+	padding-top: 5px;
+	border-bottom: 7px solid rgb(62, 193, 226);
+}
+.navigasi_ul li{
+	display: inline-block;
+	margin-left: 40px; 
+	margin-top: 20px;
+	border-right: 3px solid black;
+	padding-right: 50px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.navigasi_ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+.home :hover{
+	color: salmon;
+}
+.aboutme :hover{
+	color: salmon;
+}
+.whatido :hover{
+	color: salmon;
+}
+.contactme :hover{
+	color: salmon;
+}
+
+
+
+/*content*/
+
+
+
+
+
+.disclaimer{
+	height: 600px;
+	position: relative;
+	background-image: url(aset/hero.jpg);
+	background-size: cover;
+}
+.warp{
+	background-color: rgb(255, 255, 255);
+	position: absolute;
+	margin-top: 140px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-bottom: 15px;
+}
+.disclaimer img{
+	border-radius: 150px;
+	height: 300px;
+	margin-top: 10px;
+	margin-left: 20px;
+	float: left;
+}
+
+.hello, .nama, .nama2, .profesi, .profesi2{
+	display: inline-block;
+}
+.hello{
+	font-size: 150px;
+	margin-top: 30px;
+	margin-left: 30px;
+	float: left;
+}
+.nama{
+	margin-left: 15px;
+	margin-top:100px;
+	font-size: 70px;
+	font-weight: bold;
+	color: rgb(140, 224, 230);
+
+}
+.nama2{
+	font-size: 60px;
+	border-bottom: 4px solid black;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	font-weight: bolder;
+	margin-bottom: 10px;
+	margin-right: 90px;
+	margin-left: 40px;
+	color: rgb(238, 36, 36);
+}
+.profesi{
+	font-size: 20px;
+	border-right: 2px solid black;
+	padding-right: 20px;
+	margin-left: 90px;
+	font-weight: bold;
+}
+.profesi2{
+	font-size: 20px;
+	margin-left: 20px;
+	font-weight: bold;
+}
+
+
+
+/*content2*/
+
+
+
+
+.content{
+height: 800px;
+position: relative;
+background-color: rgb(242, 249, 255);
+}
+.content1{
+	position: absolute;
+	margin-top: 100px;
+	width: 100%;
+}
+.judul-content{
+	font-size: 70px;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+.content1 p{
+	margin-top: 40px;
+	float: left;
+	width: 600px;
+	display: inline-block;
+	font-size: 35px;
+	text-align: justify;
+	line-height: 55px;
+	margin-left: 4px;
+	font-family: 'Oswald', sans-serif;
+}
+.content1 img{
+	float: right;
+	border-radius: 150px;
+	margin-right: 55px;
+	margin-top: 49px;
+	box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+
+
+
+/*content3*/
+.what-ido{
+	background-color: aqua;
+	position: relative;
+	background-image: url(aset/content.jpg);
+	background-size: cover;
+}
+.wid-judul-nama{
+	font-size: 60px;
+	text-decoration: underline;
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: bolder;
+	color: white;
+	padding-top: 35px;
+
+}
+.wid-jelas1{
+	width: 355px;
+	margin-left: 120px;
+	margin-top: 25px;	
+	height: 400px;
+	display: inline-block;
+	background-color:white;
+	position: relative;
+	box-shadow: 10px 10px 5px black;
+}
+.wid-jelas1 img{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	margin-left: 95px;
+	margin-top: 40px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 5px #aaaaaa;
+}
+.wid-penulis{
+	position: absolute;
+	margin-top: 250px;
+	font-size: 40px;
+	font-weight: bolder;
+	margin-left: 47px;
+	text-transform: capitalize;
+
+}
+.wid-site a{
+	position: absolute;
+	margin-top: 300px;
+	text-decoration: none;
+	color: black;
+	margin-left: 85px;
+	text-transform: capitalize;
+
+}
+.wid-jelas2{
+	background-color:white;
+	width: 355px;
+	margin-left: 120px;
+	margin-top: 25px;
+	height: 400px;
+	display: inline-block;
+	position: relative;
+	box-shadow: 10px 10px 5px black;
+}
+.wid-jelas2 img{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	border-radius: 70px;
+	margin-left: 70px;
+	margin-top: 15px;
+}
+.wid-foto{
+	position: absolute;
+	margin-top: 260px;
+	font-size: 35px;
+	margin-left: 60px;
+	font-weight: bolder;
+	text-transform: capitalize;
+}
+.wid-poto a{
+	position: absolute;
+	text-decoration: none;
+	color: black;
+	margin-top: 305px;
+	font-size: 14px;
+	margin-left: 35px;
+	text-transform: capitalize;
+}
+.wid-jelas3{
+	background-color:white;
+	width: 355px;
+	margin-left: 120px;	
+	margin-top: 25px;
+	height: 400px;
+	display: inline-block;
+	margin-bottom: 25px;
+	position: relative;
+	box-shadow: 10px 10px 5px black;
+}
+.wid-jelas3 img{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	margin-left: 100px;
+	margin-top: 30px;
+	border-radius: 15px;
+}
+.wid-code{
+	position: absolute;
+	margin-top: 230px;
+	margin-left: 30px;
+	font-size: 29px;
+	font-weight: bolder;
+	text-transform: capitalize;
+}
+.wid-code1{
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 65px;
+	text-transform: capitalize;
+}
+.wid-jelas4{
+	background-color:white;
+	width: 355px;
+	margin-left: 120px;	
+	margin-top: 25px;
+	height: 400px;
+	display: inline-block;
+	margin-bottom: 25px;
+	position: relative;
+	box-shadow: 10px 10px 5px black;
+}
+.wid-jelas4 img{
+	position: absolute;
+	width: 190px;
+	height: 190px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	margin-left: 80px;
+	margin-top: 10px;
+}
+.wid-clg{
+	position: absolute;
+	margin-top: 240px;
+	font-weight: bolder;
+	font-size: 27px;
+	margin-left: 23px;
+	text-transform: capitalize;
+}
+.wid-clg1{
+	position: absolute;
+	margin-top: 276px;
+	margin-left: 92px;
+	text-transform: capitalize;
+}
+
+
+
+
+/*contact*/
+.title-contact{
+	font-size: 40px;
+	text-decoration: underline;
+	font-weight: bolder;
+	text-transform: capitalize;
+	position: absolute;
+	margin-top: 22px;
+	margin-left: 25px;
+	color:rgb(0, 0, 0);
+}
+.contact-warp{
+	background-image: url(aset/desk.jpg);
+	background-size: cover;
+	background-position-y: -1770px;
+	position: relative;
+}
+.contact-facebook{
+	width: 200px;
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 50px;
+}
+.contact-facebook a img{
+	width: 60px;
+	height: 60px;
+	border-radius: 170px;
+}
+.contact-facebook p{
+	position: relative;
+	float: right;
+	top: 20px;
+	right: 5px ;
+}
+.facebook-1{
+	text-decoration: none;
+	color: black;
+}
+.facebook-1:hover{
+	color: rgb(124, 124, 236);
+}
+.contact-facebook a img:hover{
+	box-shadow: 2px 2px 2px rgb(104, 104, 104);
+}
+.contact-instagram{
+	width: 200px;
+	display: inline-block;
+	margin-left: 55px;
+}
+.contact-instagram a img{
+	width: 80px;
+	height: 60px;
+}
+.contact-instagram p{
+	position: relative;
+	float: right;
+	top: 20px;
+	right: 30px;
+}
+.instagram-1{
+	color: black;
+}
+.instagram-1 :hover{
+	color:  rgb(124, 124, 236);
+}
+.contact-wa{
+	width: 200px;
+	display: inline-block;
+	margin-left: 55px;
+}
+.contact-wa a img{
+	width: 80px;
+	height: 60px;
+}
+.contact-wa p{
+	position: relative;
+	float: right;
+	top: 20px;
+	right: 10px;;
+}
+.contact-linkedin{
+	width: 200px;
+	display: inline-block;
+	margin-left: 55px;
+}
+.contact-linkedin a img{
+	width: 80px;
+	height: 60px;
+}
+.contact-linkedin p{
+	position: relative;
+	float: right;
+	bottom: 45px;
+}
+.linkedin-1{
+	color: black;
+}
+.linkedin-1:hover{
+	color:rgb(124, 124, 236);
+}
+
+
+
+
+
+
+
+
+/*footer*/
+
+
+
+
+.footer_text{
+	color: white;
+	text-align: center;
+}
+.footer{
+	background-color: rgb(54, 54, 54);
+	width: 100%;
+	height: 40px;
+	padding-top: 15px;
+	margin-top: 15px;
+	overflow: auto;
+}
